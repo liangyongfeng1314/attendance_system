@@ -1,0 +1,36 @@
+[ 2019-10-10T16:36:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.267598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037671s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.2437s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.0133s ]
+
+[ 2019-10-10T16:36:22+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005506s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-10-10T16:36:23+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009898s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0032s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0252s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0586s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0418s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="7" and week = "星期四" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0101s ]
+

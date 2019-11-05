@@ -1,0 +1,160 @@
+.border {
+    border: 1px solid red;
+}
+
+.displayFlex {
+    display: flex;
+    display: -webkit-flex;
+}
+
+#m_login {
+    height: 100%;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 2%;
+    position: relative;
+    z-index: 3;
+
+    span {
+        letter-spacing: .2rem;
+
+        &:nth-of-type(1) {
+            position: absolute;
+            left: 2%;
+            top: 0;
+            z-index: 19981218;
+        }
+
+        &:nth-of-type(2) {
+            position: absolute;
+            right: 2%;
+            top: 0;
+            cursor: pointer;
+            z-index: 19981218;
+        }
+    }
+}
+
+.login-items {
+    position: relative;
+    z-index: 200;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    .displayFlex;
+    flex-flow: wrap column;
+
+    .title {
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        letter-spacing: .5rem;
+        font-size: 2rem;
+        margin-bottom: 9%;
+        font-weight: 600;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(left,
+                #0288D1,
+                #B3E5FC 25%,
+                #03A9F4 50%,
+                #FFFFFF 75%,
+                #212121);
+        background-size: 200%, 100%;
+        -webkit-background-clip: text;
+        -webkit-animation: word 5s linear infinite;
+    }
+
+    label {
+        width: 100%;
+        padding: 5%;
+        letter-spacing: .3rem;
+        border-bottom: 1px solid rgb(87, 230, 230);
+
+        &:nth-of-type(2) {
+            margin-top: 20px;
+        }
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        margin-top: 35px;
+        border-radius: 25px;
+        border-radius: 20px;
+        background-image: -webkit-linear-gradient(left, rgb(113, 230, 212) 20%, #34D0BA 40%, #5DD0C0 60%, rgb(119, 230, 215));
+        cursor: pointer;
+        opacity: .5;
+    }
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+// 封装弹出层的方法
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.bg000 {
+    background: rgba(000, 000, 000, .6);
+}
+
+.surplusArea {
+    width: 100%;
+    height: 72%
+}
+
+.login_entry {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .displayFlex;
+    flex-flow: wrap column;
+    font-size: .8rem;
+    z-index: 5000;
+    display: none;
+
+
+
+    div {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        background: #fff;
+        text-align: center;
+        letter-spacing: .5rem;
+        border-bottom: thin solid rgb(241, 233, 233);
+
+        &:nth-of-type(4) {
+            margin-top: 3%;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+    }
+}
+
+@keyframes word {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}

@@ -1,0 +1,2285 @@
+[ 2019-11-01T14:58:28+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.137817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043531s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:1.3234s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.2297s ]
+
+[ 2019-11-01T15:25:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.073705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009339s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0974s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.3811s ]
+
+[ 2019-11-01T15:25:55+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004123s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0847s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0299s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0688s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0595s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0014s ]
+
+[ 2019-11-01T15:31:13+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1270s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2019-11-01T15:31:17+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003186s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0434s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.1324s ]
+
+[ 2019-11-01T15:31:18+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003445s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0174s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0649s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0403s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0018s ]
+
+[ 2019-11-01T15:32:19+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005451s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0226s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0840s ]
+
+[ 2019-11-01T15:32:19+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003273s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0259s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0576s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0364s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0173s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0023s ]
+
+[ 2019-11-01T15:33:20+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006225s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0591s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0490s ]
+
+[ 2019-11-01T15:33:21+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0028s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0265s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0900s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.2142s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0745s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0018s ]
+
+[ 2019-11-01T15:35:46+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013695s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0106s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0018s ]
+
+[ 2019-11-01T15:35:47+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005381s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0278s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0166s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0009s ]
+
+[ 2019-11-01T16:03:39+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Attendance/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.119218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119307s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.8375s ]
+SQL: SELECT `id` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.1032s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0610s ]
+SQL: SELECT `id` FROM `kq_time` WHERE ( week_number= "10" and week = "星期五" and what = "六"   and course_plan_fk = "1" ) LIMIT 1   [ RunTime:0.0795s ]
+SQL: SHOW COLUMNS FROM `kq_attendance` [ RunTime:0.0279s ]
+SQL: SELECT `id` FROM `kq_attendance` WHERE ( student_fk = "1" and time_fk = "25" ) LIMIT 1   [ RunTime:0.1904s ]
+SQL: INSERT INTO `kq_attendance` (`student_fk`,`time_fk`,`status`) VALUES ('1','25','迟到') [ RunTime:0.5559s ]
+
+[ 2019-11-01T16:03:39+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Attendance/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.118319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118420s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0480s ]
+SQL: SELECT `id` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `kq_time` WHERE ( week_number= "10" and week = "星期五" and what = "六"   and course_plan_fk = "1" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `kq_attendance` [ RunTime:0.1414s ]
+SQL: SELECT `id` FROM `kq_attendance` WHERE ( student_fk = "1" and time_fk = "25" ) LIMIT 1   [ RunTime:0.0664s ]
+
+[ 2019-11-01T16:25:02+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007865s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0106s ]
+
+[ 2019-11-01T16:25:05+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005304s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1848s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0554s ]
+
+[ 2019-11-01T16:25:06+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0753s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0018s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.1466s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.1671s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0009s ]
+
+[ 2019-11-01T18:14:08+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.3201s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0400s ]
+
+[ 2019-11-01T18:14:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004291s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0482s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0578s ]
+
+[ 2019-11-01T18:14:11+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005513s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0236s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0883s ]
+
+[ 2019-11-01T18:14:12+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0007s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0080s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0704s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1472s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0205s ]
+
+[ 2019-11-01T20:11:56+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.017616s ]
+INFO: [ app_init ] --END-- [ RunTime:0.077033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025040s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1344s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0721s ]
+
+[ 2019-11-01T20:12:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003241s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0470s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0331s ]
+
+[ 2019-11-01T20:12:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0331s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0341s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0212s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0240s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0454s ]
+
+[ 2019-11-01T20:12:05+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003467s ]
+ERR: 无法加载控制器:Report
+
+[ 2019-11-01T20:13:41+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+ERR: 无法加载控制器:Report
+
+[ 2019-11-01T20:14:51+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003194s ]
+ERR: 无法加载控制器:Report
+
+[ 2019-11-01T20:15:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+ERR: 无法加载控制器:Report
+
+[ 2019-11-01T20:16:26+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+ERR: 无法加载控制器:Report
+
+[ 2019-11-01T20:17:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+ERR: 无法加载控制器:Report
+
+[ 2019-11-01T20:19:40+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005612s ]
+ERR: 无法加载控制器:Report
+
+[ 2019-11-01T20:20:20+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003238s ]
+
+[ 2019-11-01T20:20:52+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003540s ]
+
+[ 2019-11-01T20:21:15+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003205s ]
+
+[ 2019-11-01T20:21:15+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004043s ]
+
+[ 2019-11-01T20:21:16+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006560s ]
+
+[ 2019-11-01T20:21:17+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003309s ]
+
+[ 2019-11-01T20:21:49+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007333s ]
+
+[ 2019-11-01T20:22:03+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003339s ]
+
+[ 2019-11-01T20:23:11+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+
+[ 2019-11-01T20:23:44+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011564s ]
+
+[ 2019-11-01T20:25:37+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004272s ]
+
+[ 2019-11-01T20:25:55+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006365s ]
+
+[ 2019-11-01T20:26:37+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003597s ]
+
+[ 2019-11-01T20:27:19+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010246s ]
+
+[ 2019-11-01T20:28:38+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003867s ]
+
+[ 2019-11-01T20:29:21+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004390s ]
+
+[ 2019-11-01T20:30:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007259s ]
+
+[ 2019-11-01T20:30:33+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004283s ]
+
+[ 2019-11-01T20:31:15+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003378s ]
+
+[ 2019-11-01T20:31:51+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003480s ]
+
+[ 2019-11-01T20:32:24+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008017s ]
+
+[ 2019-11-01T20:34:10+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+
+[ 2019-11-01T20:34:23+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003621s ]
+
+[ 2019-11-01T20:34:39+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005256s ]
+
+[ 2019-11-01T20:36:22+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004265s ]
+
+[ 2019-11-01T20:36:49+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+
+[ 2019-11-01T20:37:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003281s ]
+
+[ 2019-11-01T20:37:49+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004235s ]
+
+[ 2019-11-01T20:38:01+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004848s ]
+
+[ 2019-11-01T20:38:03+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003349s ]
+
+[ 2019-11-01T20:38:05+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003864s ]
+
+[ 2019-11-01T20:38:12+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003279s ]
+
+[ 2019-11-01T20:38:12+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003480s ]
+
+[ 2019-11-01T20:38:21+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006533s ]
+
+[ 2019-11-01T20:38:34+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011956s ]
+
+[ 2019-11-01T20:39:07+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007789s ]
+
+[ 2019-11-01T20:39:17+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003778s ]
+
+[ 2019-11-01T20:39:55+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003234s ]
+
+[ 2019-11-01T20:40:52+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+
+[ 2019-11-01T20:42:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+
+[ 2019-11-01T20:56:15+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004389s ]
+ERR: 1146:Table 'attendance_system.kq_fk_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_fk_time`
+ERR: 1146:Table 'attendance_system.kq_fk_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_fk_time`
+
+[ 2019-11-01T20:58:22+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T20:59:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:00:10+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.7729s ]
+SQL: SELECT * FROM kq_time time INNER JOIN kq_seat as seat on  time.id = seat.id   [ RunTime:0.7817s ]
+
+[ 2019-11-01T21:00:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005104s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:01:25+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007194s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:02:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003848s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:05:58+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003275s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:07:12+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003394s ]
+
+[ 2019-11-01T21:07:38+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006691s ]
+
+[ 2019-11-01T21:07:39+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005111s ]
+
+[ 2019-11-01T21:07:40+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003362s ]
+
+[ 2019-11-01T21:08:00+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:08:47+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:09:23+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004875s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:09:24+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:09:59+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+ERR: 1146:Table 'attendance_system.kq_kq_time' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `kq_kq_time`
+
+[ 2019-11-01T21:10:15+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003230s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1551s ]
+ERR: 1054:Unknown column 'kq_seat_total' in 'field list'
+ [ SQL语句 ] : SELECT `kq_seat_total` FROM `kq_time` INNER JOIN kq_seat  on  time.id = kq_seat.id  WHERE ( what="十" ) 
+ERR: 1054:Unknown column 'kq_seat_total' in 'field list'
+ [ SQL语句 ] : SELECT `kq_seat_total` FROM `kq_time` INNER JOIN kq_seat  on  time.id = kq_seat.id  WHERE ( what="十" ) 
+
+[ 2019-11-01T21:13:19+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003643s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.4367s ]
+ERR: 1054:Unknown column 'kq.time.id' in 'on clause'
+ [ SQL语句 ] : SELECT kq_seat.seat_total FROM `kq_time` INNER JOIN kq_seat  on  kq.time.id = kq_seat.id  WHERE ( what="十" ) 
+ERR: 1054:Unknown column 'kq.time.id' in 'on clause'
+ [ SQL语句 ] : SELECT kq_seat.seat_total FROM `kq_time` INNER JOIN kq_seat  on  kq.time.id = kq_seat.id  WHERE ( what="十" ) 
+
+[ 2019-11-01T21:13:32+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004582s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0315s ]
+SQL: SELECT kq_seat.seat_total FROM `kq_time` INNER JOIN kq_seat  on  kq_time.id = kq_seat.id  WHERE ( what="十" )  [ RunTime:0.2669s ]
+NOTIC: [8] Undefined variable: what C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: weekly C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: week C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: course_plan_fk C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 20 行.
+
+[ 2019-11-01T21:14:09+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003347s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0694s ]
+SQL: SELECT kq_seat.seat_total FROM `kq_time` INNER JOIN kq_seat  on  kq_time.id = kq_seat.id  WHERE ( kq_time.what="十" )  [ RunTime:0.0152s ]
+NOTIC: [8] Undefined variable: what C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: weekly C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: week C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: course_plan_fk C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 20 行.
+
+[ 2019-11-01T21:14:09+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005010s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0359s ]
+SQL: SELECT kq_seat.seat_total FROM `kq_time` INNER JOIN kq_seat  on  kq_time.id = kq_seat.id  WHERE ( kq_time.what="十" )  [ RunTime:0.0275s ]
+NOTIC: [8] Undefined variable: what C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: weekly C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: week C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: course_plan_fk C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 20 行.
+
+[ 2019-11-01T21:15:51+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005126s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1192s ]
+SQL: SELECT kq_seat.seat_total FROM `kq_time` INNER JOIN kq_seat  on  kq_time.seat_fk = kq_seat.id  WHERE ( kq_time.what="十" )  [ RunTime:0.0361s ]
+NOTIC: [8] Undefined variable: what C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: weekly C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: week C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: course_plan_fk C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 20 行.
+
+[ 2019-11-01T21:16:54+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003959s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0460s ]
+ERR: Think\Model:alies方法不存在！
+
+[ 2019-11-01T21:17:10+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003606s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0384s ]
+SQL: SELECT kq_seat.seat_total FROM kq_time t INNER JOIN kq_seat  on  t.seat_fk = kq_seat.id  WHERE ( t.what="十" )  [ RunTime:0.0240s ]
+NOTIC: [8] Undefined variable: what C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: weekly C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: week C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: course_plan_fk C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 21 行.
+
+[ 2019-11-01T21:17:50+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003524s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1678s ]
+ERR: 1146:Table 'attendance_system.__kq_seat__' doesn't exist
+ [ SQL语句 ] : SELECT s.seat_total FROM kq_time t INNER JOIN __kq_seat__  as s on  t.seat_fk = s.id  WHERE ( t.what="十" ) 
+ERR: 1146:Table 'attendance_system.__kq_seat__' doesn't exist
+ [ SQL语句 ] : SELECT s.seat_total FROM kq_time t INNER JOIN __kq_seat__  as s on  t.seat_fk = s.id  WHERE ( t.what="十" ) 
+
+[ 2019-11-01T21:18:04+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003426s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0275s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" )  [ RunTime:0.0375s ]
+NOTIC: [8] Undefined variable: what C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: weekly C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: week C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: course_plan_fk C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\ReportController.class.php 第 21 行.
+
+[ 2019-11-01T21:19:49+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005942s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1502s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" )  [ RunTime:0.0149s ]
+
+[ 2019-11-01T21:20:45+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003748s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0475s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" )  [ RunTime:0.0848s ]
+
+[ 2019-11-01T21:25:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003425s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.3788s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.3969s ]
+
+[ 2019-11-01T21:26:44+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1068s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0574s ]
+
+[ 2019-11-01T21:28:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006644s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0163s ]
+
+[ 2019-11-01T21:28:13+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034623s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0696s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.5231s ]
+
+[ 2019-11-01T21:28:14+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003345s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0275s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0541s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0482s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="10" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0217s ]
+
+[ 2019-11-01T21:28:18+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004778s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0010s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.1228s ]
+
+[ 2019-11-01T21:29:14+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003365s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1451s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T21:34:47+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011711s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0919s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0647s ]
+
+[ 2019-11-01T21:35:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0638s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0289s ]
+
+[ 2019-11-01T21:35:13+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006007s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1913s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.2194s ]
+
+[ 2019-11-01T21:35:16+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0372s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0827s ]
+
+[ 2019-11-01T21:42:33+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005187s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1712s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0164s ]
+
+[ 2019-11-01T21:47:51+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009452s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:2.7158s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:2.0291s ]
+
+[ 2019-11-01T21:52:53+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006119s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:4.0461s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:1.7608s ]
+
+[ 2019-11-01T21:55:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007299s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.5359s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.5948s ]
+
+[ 2019-11-01T21:56:26+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014968s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0717s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0557s ]
+
+[ 2019-11-01T21:56:27+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004227s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1397s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0014s ]
+
+[ 2019-11-01T21:56:41+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007853s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0280s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T21:57:22+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006461s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0808s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.5102s ]
+
+[ 2019-11-01T21:57:23+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006107s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0384s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0490s ]
+
+[ 2019-11-01T21:57:32+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010522s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0577s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0017s ]
+
+[ 2019-11-01T21:57:40+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006155s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0273s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0014s ]
+
+[ 2019-11-01T21:57:49+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007718s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0009s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0449s ]
+
+[ 2019-11-01T21:57:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003653s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0154s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0017s ]
+
+[ 2019-11-01T21:57:55+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004579s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0011s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T21:58:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005883s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0379s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T21:58:45+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009415s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0180s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T21:58:55+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003636s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0907s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0010s ]
+
+[ 2019-11-01T21:59:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006076s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0008s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T21:59:11+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005590s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0189s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T21:59:31+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008309s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0376s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:04:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006790s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0990s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:04:16+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006028s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0014s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:04:17+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006928s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0078s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:04:34+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005556s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0592s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0020s ]
+
+[ 2019-11-01T22:04:36+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005095s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0714s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0011s ]
+
+[ 2019-11-01T22:04:44+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008299s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0013s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T22:04:53+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010275s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0117s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:04:57+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010949s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0041s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0021s ]
+
+[ 2019-11-01T22:04:59+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006957s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0011s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0014s ]
+
+[ 2019-11-01T22:05:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005114s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0016s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0010s ]
+
+[ 2019-11-01T22:05:08+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008372s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0011s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T22:05:29+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003217s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0340s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.1007s ]
+
+[ 2019-11-01T22:05:30+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010558s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0338s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:05:32+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013229s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0213s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:05:36+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008218s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0629s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:05:40+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007458s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0561s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0011s ]
+
+[ 2019-11-01T22:05:43+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005836s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0194s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:06:22+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011223s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0320s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:06:23+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003898s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0199s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0004s ]
+
+[ 2019-11-01T22:06:35+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004199s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0011s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:06:37+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003565s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0296s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0010s ]
+
+[ 2019-11-01T22:06:38+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003581s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0205s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0004s ]
+
+[ 2019-11-01T22:06:58+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003886s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0333s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:07:18+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007960s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0230s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:07:19+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008949s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0799s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:09:14+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004971s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0737s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0019s ]
+
+[ 2019-11-01T22:09:27+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003383s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0733s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0010s ]
+
+[ 2019-11-01T22:09:28+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003180s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0006s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0213s ]
+
+[ 2019-11-01T22:09:38+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006203s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0178s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:10:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005763s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0176s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:10:08+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0315s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:10:57+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003547s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0374s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0019s ]
+
+[ 2019-11-01T22:11:15+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023159s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0144s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:11:18+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021467s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1384s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:11:44+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003222s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0008s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0004s ]
+
+[ 2019-11-01T22:11:46+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008106s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0489s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:11:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0155s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0004s ]
+
+[ 2019-11-01T22:12:08+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007098s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0420s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:12:22+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008385s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0010s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:12:30+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011614s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0129s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:12:32+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006398s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0128s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0011s ]
+
+[ 2019-11-01T22:12:35+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015198s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0155s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:12:38+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003944s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0438s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0011s ]
+
+[ 2019-11-01T22:12:42+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007104s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0293s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:12:49+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007149s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0219s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:13:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006433s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0202s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:13:14+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0009s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:14:03+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006855s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0145s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:14:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007316s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0141s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:14:11+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006039s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0563s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:14:49+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0880s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:15:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005338s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0198s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0014s ]
+
+[ 2019-11-01T22:15:11+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003510s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0377s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:15:35+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004410s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0009s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:18:49+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006239s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0973s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0017s ]
+
+[ 2019-11-01T22:19:15+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006387s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0917s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:19:57+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008577s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0495s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0014s ]
+
+[ 2019-11-01T22:21:03+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006287s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1654s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:21:04+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005347s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0433s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0013s ]
+
+[ 2019-11-01T22:21:11+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004014s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0298s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0016s ]
+
+[ 2019-11-01T22:21:11+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007519s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0382s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0013s ]
+
+[ 2019-11-01T22:21:21+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009336s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0495s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:21:21+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009536s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0015s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:21:33+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005358s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1125s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:21:33+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005531s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1115s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:26:38+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005137s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0222s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0014s ]
+
+[ 2019-11-01T22:26:41+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009040s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1336s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0011s ]
+
+[ 2019-11-01T22:27:06+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008205s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0156s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T22:27:10+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0008s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0004s ]
+
+[ 2019-11-01T22:27:27+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003548s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0807s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:27:29+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003456s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0408s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:27:31+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0012s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:27:53+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008140s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0542s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T22:28:18+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008460s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0454s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:28:21+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004399s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0199s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:28:35+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006272s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.1009s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0262s ]
+
+[ 2019-11-01T22:35:30+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004813s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0009s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0005s ]
+
+[ 2019-11-01T22:36:51+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003490s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0011s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:37:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003326s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0006s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0004s ]
+
+[ 2019-11-01T22:37:28+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005809s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0368s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:37:52+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0479s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0010s ]
+
+[ 2019-11-01T22:38:08+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004386s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0322s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0012s ]
+
+[ 2019-11-01T22:39:31+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005138s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0013s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:40:18+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006385s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0602s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:40:48+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008468s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0013s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:41:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006026s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0012s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:42:05+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003759s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0264s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0008s ]
+
+[ 2019-11-01T22:43:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006334s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0317s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T22:43:42+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0345s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T22:43:51+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003416s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0155s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0195s ]
+
+[ 2019-11-01T22:45:15+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004548s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0268s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0007s ]
+
+[ 2019-11-01T22:46:41+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007243s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0455s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0022s ]
+
+[ 2019-11-01T22:50:06+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007440s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0952s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0009s ]
+
+[ 2019-11-01T22:50:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006075s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0177s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0006s ]
+
+[ 2019-11-01T22:50:09+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Report/getSeatTotal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006026s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0011s ]
+SQL: SELECT s.seat_total FROM kq_time t INNER JOIN kq_seat  as s on  t.seat_fk = s.id  WHERE ( t.what="十" and t.week = "星期五" and t.week_number = "10"  and t.course_plan_fk = "1" )  [ RunTime:0.0014s ]
+

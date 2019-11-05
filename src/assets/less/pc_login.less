@@ -1,0 +1,118 @@
+.displayFlex {
+    display: flex;
+    display: -webkit-flex;
+}
+
+#login {
+    width: 100%;
+    height: 100%;
+    .displayFlex;
+    justify-content: center;
+    align-items: center;
+
+    .login-box {
+        width: 30%;
+        height: 300px;
+        position: relative;
+        z-index: 1;
+        margin-left: 30%;
+        background: #fff;
+        margin-top: -100px;
+        opacity: .8;
+        .displayFlex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .login-header {
+        width: 100%;
+        font-size: .9rem;
+        letter-spacing: .5rem;
+
+        ul {
+            .displayFlex;
+        }
+
+        ul li {
+            width: 33%;
+            text-align: center;
+            height: 35px;
+            line-height: 35px;
+            color: #fff;
+            background: #000000;
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                margin-left: 1%;
+            }
+        }
+    }
+
+    .login-items {
+        width: 80%;
+        .displayFlex;
+        flex-direction: column;
+        padding: 5%;
+        margin-top: -2%;
+
+        .title {
+            width: 100%;
+            margin-bottom: 10%;
+            text-align: center;
+        }
+
+        label {
+            .displayFlex;
+            align-items: center;
+            height: 35px;
+            border-bottom: 1px solid green;
+
+            &:nth-of-type(2) {
+                margin-top: 5%;
+            }
+
+            span {
+                letter-spacing: 3px;
+                color: #000;
+                font-size: bold;
+            }
+
+            input {
+                padding: 3%;
+                color: rgb(30, 238, 11);
+                text-shadow: 0px 0px 0px #000;
+                -webkit-text-fill-color: transparent;
+            }
+
+        }
+
+        button {
+            width: 100%;
+            margin-top: 15%;
+            border-radius: 20px;
+            height: 30px;
+            background-image: -webkit-linear-gradient(left, #00A08A 20%, #34D0BA 40%, #5DD0C0 60%, #00685A);
+            cursor: pointer;
+            border: none;
+            opacity: 0.5;
+        }
+
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+a {
+    color: #fff;
+}
+
+.router-link-active {
+    // 修改router-link的激活样式
+    color: rgba(40, 219, 174, 0.87);
+}

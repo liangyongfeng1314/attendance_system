@@ -1,0 +1,376 @@
+[ 2019-10-26T09:24:16+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.142958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048792s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:2.7579s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.1728s ]
+
+[ 2019-10-26T09:24:16+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006858s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:2.7955s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.1488s ]
+
+[ 2019-10-26T09:25:22+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004946s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1640s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2019-10-26T09:53:26+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005810s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.7868s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0375s ]
+
+[ 2019-10-26T09:54:04+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003985s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1048s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0300s ]
+
+[ 2019-10-26T10:03:48+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003305s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1995s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0325s ]
+
+[ 2019-10-26T10:09:33+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005283s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1208s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.3855s ]
+
+[ 2019-10-26T10:09:34+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004394s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1219s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0487s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0846s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0929s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0767s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="9" and week = "星期六" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.1730s ]
+
+[ 2019-10-26T10:10:12+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004303s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0894s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-10-26T10:28:53+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005332s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.5994s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0566s ]
+
+[ 2019-10-26T10:35:28+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006031s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.3910s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0217s ]
+
+[ 2019-10-26T10:38:31+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006248s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0596s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-10-26T10:41:10+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005045s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.3186s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0422s ]
+
+[ 2019-10-26T11:51:25+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.135917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.053427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.053615s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.7919s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.1484s ]
+
+[ 2019-10-26T11:55:27+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004272s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.4016s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.6338s ]
+
+[ 2019-10-26T11:55:27+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003572s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.2501s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.1170s ]
+
+[ 2019-10-26T11:55:29+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003195s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0597s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0828s ]
+
+[ 2019-10-26T11:55:30+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003589s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0430s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.1231s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.1690s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0855s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.1027s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="9" and week = "星期六" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0623s ]
+
+[ 2019-10-26T11:58:37+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.2147s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0062s ]
+
+[ 2019-10-26T12:20:38+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031962s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.8055s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0462s ]
+
+[ 2019-10-26T12:30:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006019s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1407s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0027s ]
+
+[ 2019-10-26T12:32:06+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004738s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2019-10-26T12:33:12+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003318s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0532s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.1382s ]
+
+[ 2019-10-26T12:33:14+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004283s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1752s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.1948s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0224s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.1749s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.4884s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.4644s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="9" and week = "星期六" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.3603s ]
+
+[ 2019-10-26T12:35:03+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003381s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2019-10-26T12:35:14+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003625s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0263s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0916s ]
+
+[ 2019-10-26T12:35:14+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004741s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1171s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0222s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0162s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0221s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="9" and week = "星期六" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0253s ]
+
+[ 2019-10-26T13:13:53+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025091s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.6676s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0476s ]
+
+[ 2019-10-26T13:19:26+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003619s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.2182s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0157s ]
+
+[ 2019-10-26T13:19:31+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0949s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.4189s ]
+
+[ 2019-10-26T13:19:32+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0662s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0165s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.1549s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.1099s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="9" and week = "星期六" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.1835s ]
+
+[ 2019-10-26T13:19:56+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003770s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.2409s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0099s ]
+
+[ 2019-10-26T13:19:58+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003243s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0530s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.0497s ]
+
+[ 2019-10-26T13:19:59+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0515s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0211s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0126s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="9" and week = "星期六" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0153s ]
+

@@ -1,0 +1,36 @@
+[ 2019-10-27T18:08:55+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.113672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021295s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:1.6303s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.2120s ]
+
+[ 2019-10-27T18:09:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008761s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0478s ]
+SQL: SELECT kq_majoy_plan.grade FROM `kq_student` INNER JOIN kq_class on kq_student.class_fk = kq_class.id INNER JOIN kq_majoy_plan on kq_class.majoy_plan_fk = kq_majoy_plan.id  WHERE ( kq_student.student_id = "201730622101" )  [ RunTime:0.2001s ]
+
+[ 2019-10-27T18:09:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010057s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0063s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0433s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0906s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0596s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="9" and week = "星期日" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0361s ]
+

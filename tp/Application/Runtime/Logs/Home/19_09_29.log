@@ -1,0 +1,819 @@
+[ 2019-09-29T10:02:58+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.091097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.067581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.067664s ]
+ERR: 模板不存在:./Application/Home/View/Login/index.html
+
+[ 2019-09-29T10:03:17+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.072776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.073026s ]
+
+[ 2019-09-29T10:03:41+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005633s ]
+
+[ 2019-09-29T10:03:42+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019799s ]
+
+[ 2019-09-29T10:03:53+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005111s ]
+
+[ 2019-09-29T10:04:39+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006928s ]
+
+[ 2019-09-29T10:04:40+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012730s ]
+
+[ 2019-09-29T10:04:40+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005804s ]
+
+[ 2019-09-29T10:04:53+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004884s ]
+
+[ 2019-09-29T10:09:13+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009896s ]
+
+[ 2019-09-29T10:09:13+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008013s ]
+
+[ 2019-09-29T10:09:14+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015086s ]
+
+[ 2019-09-29T10:11:24+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014271s ]
+
+[ 2019-09-29T10:16:23+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008946s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1173s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 9 行.
+
+[ 2019-09-29T10:16:43+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010271s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 9 行.
+
+[ 2019-09-29T10:17:08+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008254s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014072s ]
+
+[ 2019-09-29T10:17:33+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008126s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1030s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0008s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006558s ]
+
+[ 2019-09-29T10:17:36+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014621s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0005s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007120s ]
+
+[ 2019-09-29T10:17:45+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005965s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0015s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012807s ]
+
+[ 2019-09-29T10:17:57+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006307s ]
+
+[ 2019-09-29T10:24:54+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005475s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1477s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010366s ]
+
+[ 2019-09-29T10:32:26+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.066593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014801s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.2431s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006535s ]
+
+[ 2019-09-29T10:32:57+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011702s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008428s ]
+
+[ 2019-09-29T10:33:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006754s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008057s ]
+
+[ 2019-09-29T10:33:02+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004513s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004749s ]
+
+[ 2019-09-29T10:33:03+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005107s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005318s ]
+
+[ 2019-09-29T10:33:05+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007324s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008083s ]
+
+[ 2019-09-29T10:33:05+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005159s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011750s ]
+
+[ 2019-09-29T10:33:06+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005129s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005848s ]
+
+[ 2019-09-29T10:33:06+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006531s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005919s ]
+
+[ 2019-09-29T10:33:06+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008740s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008075s ]
+
+[ 2019-09-29T10:55:40+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021255s ]
+
+[ 2019-09-29T10:56:16+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010239s ]
+
+[ 2019-09-29T10:56:29+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009922s ]
+
+[ 2019-09-29T10:56:32+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014959s ]
+
+[ 2019-09-29T10:56:43+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005454s ]
+
+[ 2019-09-29T10:56:44+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009448s ]
+
+[ 2019-09-29T10:59:13+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012912s ]
+
+[ 2019-09-29T10:59:42+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011766s ]
+
+[ 2019-09-29T11:00:02+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014145s ]
+
+[ 2019-09-29T11:00:16+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010806s ]
+
+[ 2019-09-29T11:00:32+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009746s ]
+
+[ 2019-09-29T11:00:33+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006503s ]
+
+[ 2019-09-29T11:00:35+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011992s ]
+
+[ 2019-09-29T11:00:41+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007370s ]
+
+[ 2019-09-29T11:00:44+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005221s ]
+
+[ 2019-09-29T11:00:52+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008511s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.6210s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0484s ]
+
+[ 2019-09-29T11:01:16+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010302s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0744s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0015s ]
+
+[ 2019-09-29T11:01:20+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015710s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0422s ]
+
+[ 2019-09-29T11:01:49+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009020s ]
+
+[ 2019-09-29T11:01:53+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010450s ]
+
+[ 2019-09-29T11:01:55+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005418s ]
+
+[ 2019-09-29T11:02:04+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010523s ]
+
+[ 2019-09-29T11:02:38+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016066s ]
+
+[ 2019-09-29T11:03:54+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012417s ]
+NOTIC: [8] Undefined variable: recordcount C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: result C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-09-29T11:04:09+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005458s ]
+NOTIC: [8] Undefined variable: recordcount C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: result C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-09-29T11:04:13+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007807s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0237s ]
+NOTIC: [8] Undefined variable: recordcount C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: result C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-09-29T11:04:16+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006365s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0143s ]
+NOTIC: [8] Undefined variable: recordcount C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-09-29T11:04:42+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005539s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0007s ]
+
+[ 2019-09-29T11:04:57+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019479s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0620s ]
+
+[ 2019-09-29T11:05:28+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013742s ]
+
+[ 2019-09-29T11:05:38+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004565s ]
+
+[ 2019-09-29T11:05:42+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009588s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0006s ]
+
+[ 2019-09-29T11:05:47+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006260s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0093s ]
+
+[ 2019-09-29T11:05:51+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011732s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0007s ]
+
+[ 2019-09-29T11:06:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005813s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0007s ]
+
+[ 2019-09-29T11:06:12+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006470s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0009s ]
+
+[ 2019-09-29T11:07:12+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005493s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0009s ]
+
+[ 2019-09-29T12:32:11+08:00 ] ::1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.054721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009817s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.9216s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0157s ]
+
+[ 2019-09-29T12:34:39+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009522s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0052s ]
+
+[ 2019-09-29T19:55:53+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.205148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047426s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:5.4707s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.5265s ]
+
+[ 2019-09-29T19:58:47+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008688s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1807s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0105s ]
+
+[ 2019-09-29T20:03:25+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011308s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1002s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0143s ]
+
+[ 2019-09-29T20:04:21+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008009s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:1.7160s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0847s ]
+
+[ 2019-09-29T20:04:25+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012251s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1457s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.7341s ]
+
+[ 2019-09-29T20:04:26+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011175s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.2629s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0013s ]
+
+[ 2019-09-29T20:04:45+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017761s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.8717s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.2947s ]
+
+[ 2019-09-29T20:07:07+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007606s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1200s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0588s ]
+
+[ 2019-09-29T20:07:30+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007061s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0769s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0108s ]
+
+[ 2019-09-29T20:24:34+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009077s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\UPUPW_AP5.5\htdocs\attendance_system\tp\Application\Home\Controller\LoginController.class.php 第 8 行.
+
+[ 2019-09-29T20:26:00+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014540s ]
+
+[ 2019-09-29T20:26:55+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007842s ]
+

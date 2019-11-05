@@ -1,0 +1,152 @@
+[ 2019-10-11T08:54:05+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.074979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035527s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.7559s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.1035s ]
+
+[ 2019-10-11T08:56:19+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006780s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2019-10-11T08:56:29+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008633s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2019-10-11T09:02:51+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014713s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "12" and student_name = "12" ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-10-11T09:47:28+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005559s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.3203s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.0832s ]
+
+[ 2019-10-11T09:56:16+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003596s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0545s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "sdfsdf" and student_name = "sdfsdf" ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2019-10-11T10:21:08+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005051s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-10-11T10:21:12+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0439s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0306s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.4434s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0816s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0842s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="7" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.3350s ]
+
+[ 2019-10-11T10:21:13+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/GoInClass/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008254s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0029s ]
+SQL: SELECT `class_fk` FROM `kq_student` WHERE ( student_id="201730622101" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `kq_class` [ RunTime:0.0027s ]
+SQL: SELECT `majoy_plan_fk` FROM `kq_class` WHERE ( id="1" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `kq_course_plan` [ RunTime:0.0276s ]
+SQL: SELECT `id` FROM `kq_course_plan` WHERE ( majoy_plan_fk="1" and term = "5" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `kq_time` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `kq_time` WHERE ( week_number="7" and week = "星期五" and course_plan_fk ="1" ) ORDER BY what asc  [ RunTime:0.0261s ]
+
+[ 2019-10-11T11:01:41+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.057729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006556s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:1.7554s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "201730622101" and student_name = "一号" ) LIMIT 1   [ RunTime:0.2448s ]
+
+[ 2019-10-11T11:02:01+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2019-10-11T12:21:50+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005856s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.4755s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.0739s ]
+
+[ 2019-10-11T12:26:23+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003786s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.0144s ]
+
+[ 2019-10-11T12:26:26+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005939s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:0.1056s ]
+SQL: SELECT * FROM `kq_student` WHERE ( student_id = "" and student_name = "" ) LIMIT 1   [ RunTime:0.0005s ]
+

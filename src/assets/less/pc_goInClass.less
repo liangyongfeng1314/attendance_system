@@ -1,0 +1,101 @@
+#goInClass {
+    width: 100%;
+    height: 100%;
+}
+
+.first-floor {
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    // background: #fff;
+    width: 100%;
+    height: 100%;
+    perspective: 2000; // 设置视距
+    -webkit-perspective: 2000; // 兼容其它浏览器
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d; // 设置元素可透视
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; // 设置元素背后不可见
+    animation: rotateZ 1 .2s linear;
+    .transitionBg;
+    transform: translateX(-1440px);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.first-floor div {
+    position: absolute;
+}
+
+.transitionBg {
+    transition: background-color 1s linear;
+}
+
+.floor-public {
+    // 每层的共同样式
+    left: 10%;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    border-radius: 10px;
+    .transitionBg;
+}
+
+.second-floor {
+    .floor-public;
+    background: #fff;
+}
+
+.third-floor {
+    .floor-public;
+    background: #fff;
+}
+
+.fourth-floor {
+    .floor-public;
+    background: rgba(255, 255, 255, .8);
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        width: 80%;
+        position: absolute;
+        height: 20%;
+        border: none;
+        outline: none;
+        background: orange;
+        font-size: 3rem;
+        border-radius: 2rem;
+        font-weight: 100;
+        transition: top;
+        animation: slideDown 1s linear;
+        -webkitanimation: slideDown 1s linear;
+        cursor: pointer;
+    }
+}
+
+@-webkit-keyframes rotateZ {
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotateZ {
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        top: 10%;
+    }
+
+    100% {
+        top: 45%;
+    }
+}

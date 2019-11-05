@@ -1,0 +1,20 @@
+[ 2019-09-30T18:35:39+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.041530s ]
+INFO: [ app_init ] --END-- [ RunTime:0.224694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007607s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:3.8791s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0709s ]
+
+[ 2019-09-30T18:35:39+08:00 ] 127.0.0.1 /attendance_system/tp/Index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.041703s ]
+INFO: [ app_init ] --END-- [ RunTime:0.225168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007608s ]
+SQL: SHOW COLUMNS FROM `kq_student` [ RunTime:3.8788s ]
+SQL: SELECT * FROM `kq_student`  [ RunTime:0.0741s ]
+

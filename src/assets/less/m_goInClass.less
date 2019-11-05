@@ -1,0 +1,215 @@
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     display: -webkit-flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 62.5%;
+ }
+
+ #goInClass {
+     width: 100%;
+     height: 100%;
+ }
+
+ .door-box {
+     /*门的盒子*/
+     max-width: 100%;
+     /*不要超过父元素*/
+     width: 100%;
+     height: 100%;
+     background-color: #2a273c;
+     font-family: STHeiTi, SimHei;
+     overflow: hidden;
+     position: relative;
+     z-index: 1;
+ }
+
+ .door-box.active {
+     animation: flyIntoRoom 1s both;
+ }
+
+ .door-box div {
+     position: absolute;
+ }
+
+ .wall {
+     /*墙*/
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 15%;
+     border-bottom: 3px solid #211820;
+     background-color: #768bb6;
+     box-shadow: 0 0 #768bb6;
+ }
+
+ .door-border {
+     /*门的边框*/
+     top: 10%;
+     left: 15%;
+     right: 15%;
+     bottom: 0;
+     border: 3px solid #211820;
+     border-bottom: 0;
+     border-radius: 2px 2px 0 0;
+     background-color: #183269;
+ }
+
+ .door-frame {
+     /*舞台*/
+     top: 8px;
+     left: 7px;
+     right: 7px;
+     bottom: 0;
+     border-bottom: 0;
+     border-radius: 2px 2px 0 0;
+     background-color: #fbfad0;
+     -webkit-perspective: 1200px;
+     perspective: 1200px;
+ }
+
+ .door {
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     -webkit-transform-style: preserve-3d;
+     /*元素可以透视*,元素应用于3d透视*/
+     transform-style: preserve-3d;
+     -webkit-backface-visibility: hidden;
+     /*元素背后不可见*/
+     backface-visibility: hidden;
+     transform-origin: left;
+     /*设置旋转是从左边开始的*/
+     transform: rotateX(0deg);
+ }
+
+ /* 门后和门面（门上的内容） */
+ .door-face-0,
+ .door-face-1 {
+     left: -3px;
+     top: -3px;
+     bottom: -3px;
+     right: -3px;
+     border: 3px solid #211820;
+     background-color: #295489;
+ }
+
+ .door-face-0 {
+     /*门后为距离显示屏-12px*/
+     transform: translateZ(-12px);
+ }
+
+ .door-face-1 {
+     /*门面*/
+     transform: translateZ(0);
+ }
+
+ .door-face-2 {
+     /*上边门框*/
+     height: 6px;
+     left: -3px;
+     right: -3px;
+     top: 0;
+     border: 3px solid #211820;
+     border-radius: 2px;
+     background-color: #0c2e59;
+     transform: translate3D(0, -7.5px, -6px) rotateX(90deg);
+ }
+
+ .door-face-3 {
+     /*右边门框*/
+     width: 6px;
+     top: -3px;
+     right: 0;
+     bottom: -3px;
+     border: 3px solid #211820;
+     border-radius: 2px;
+     background-color: #0c2e59;
+     transform: translate3D(7.5px, 0, -6px) rotateY(90deg);
+ }
+
+ /* 光线 */
+ .light {
+     left: 0;
+     top: 0;
+     bottom: 0;
+     background: #f7e08f;
+     width: 1000px;
+     /*[,确定top,left,bottom,右边是光的出现--->*/
+     transform: translateZ(-13px);
+     border: 1px solid red;
+ }
+
+ /*门牌*/
+ .door-card {
+     top: 60px;
+     left: 0;
+     right: 0;
+     width: 80%;
+     height: 60px;
+     line-height: 60px;
+     background-color: #c1d0ec;
+     margin: 0 auto;
+     text-align: center;
+     font-size: 4rem;
+     border: 3px solid;
+     border-radius: 2px;
+ }
+
+ .door-btn {
+     left: 0;
+     right: 0;
+     margin-top: 140px;
+     color: #9dbce3;
+     text-align: center;
+     font-size: 2rem;
+     line-height: 36px;
+ }
+
+ .door-in {
+     width: 50%;
+     height: 40px;
+     //  border: 1px solid red;
+     border-radius: 40px;
+     border: 2px solid;
+     background-color: #eacc86;
+     font-family: inherit;
+     font-size: 24px;
+     margin: 10px auto;
+     z-index: 1314;
+     display: flex;
+     display: -webkit-flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     z-index: 1314;
+ }
+
+ .room-img {
+     width: 67%;
+     height: 74%;
+     position: absolute;
+     margin: 0 auto;
+     top: 10%;
+     left: 0;
+     right: 0;
+     bottom: -20px;
+     /* z-index: 1314; */
+     border-radius: 5px;
+ }
+
+ @keyframes flyIntoRoom {
+     from {
+         /* transform: scale(1) rotateZ(0deg); */
+         opacity: 1;
+     }
+
+     to {
+         /* transform: scale(2) rotateZ(100deg); */
+         opacity: 0;
+     }
+ }
