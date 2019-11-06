@@ -82,7 +82,7 @@ let pc_goInClass = {
                         storage.set("what", response.data.what);
                         storage.set("course_plan_fk", response.data.course_plan_fk); // 外键存入localStorage
                         storage.set("term", response.data.term); // 把学期存入localStorage
-                        this.$router.push({ path: "/Report" });
+                        this.$router.push({ path: "/Pc_Report" });
                         alert("有课");
                     } else {
                         alert("不在上课时间");

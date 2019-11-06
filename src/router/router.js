@@ -43,8 +43,12 @@ const routes = [
     component: () => import("../components/M_GoInClass.vue")
   },
   {
-    path: "/Report",
-    component: () => import("../components/Report.vue")
+    path: "/Pc_Report",
+    component: () => import("../components/Pc_Report.vue")
+  },
+  {
+    path: "/M_Report",
+    component: () => import("../components/M_Report.vue")
   },
   {
     path: "/M_Login",

@@ -63,7 +63,7 @@ let goInClass = {
       if (storage.get("isClass") == true) {
         alert("请勿重复查询，本次查询结果为: 有课。");
         if (confirm("是否要进入课室")) {
-          this.$router.push({ path: "/Report" });
+          this.$router.push({ path: "/M_Report" });
         }
       } else if (storage.get("isClass") == false) {
         alert("请勿重复查询，本次查询结果为: 不在上课时间。");
@@ -86,7 +86,7 @@ let goInClass = {
             storage.set("what", response.data.what);
             storage.set("course_plan_fk", response.data.course_plan_fk); // 外键存入localStorage
             storage.set("term", response.data.term); // 把学期存入localStorage
-            this.$router.push({ path: "/Report" });
+            this.$router.push({ path: "/M_Report" });
             alert("有课");
           } else {
             alert("不在上课时间");

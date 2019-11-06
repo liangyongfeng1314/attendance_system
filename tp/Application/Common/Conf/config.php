@@ -5,7 +5,7 @@ return array(
     "DB_NAME"=>'attendance_system',
     "DB_PORT"=>'3306',
     "DB_PREFIX"=>'kq_',
-    "DB_PWD"=>'123456',
+    "DB_PWD"=>'',
     "DB_CHARSET"=>'utf8',
     "DB_USER"=>'root',
     "DB_HOST"=>'localhost'
